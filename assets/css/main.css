@@ -1851,7 +1851,7 @@ Main Components
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--color-primary);
+  background-color: #11b2e8;
 }
 
 @media (max-width: 767px) {
@@ -3020,6 +3020,26 @@ hr{
   100% {
     transform: rotate(360deg);
   }
+}
+
+/*--------------------------------------------------------------
+# Partners Section
+--------------------------------------------------------------*/
+
+.partner-img{
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+}
+.partner-desc-box{
+  margin-top: 200px;
+}
+
+.partner-desc{
+  background-color: rgba(0, 132, 255, 0.4); 
+  color: rgba(0, 132, 255, 0.4);
 }
 
 /*--------------------------------------------------------------
