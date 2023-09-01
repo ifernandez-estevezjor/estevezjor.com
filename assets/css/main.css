@@ -4013,6 +4013,12 @@ hr{
     font-size:30px;
     z-index:100;
 }
+
+.whatsapp-logo{
+  width: 40px;
+  height: 40px;
+  margin-top: 12px;
+}
 /*-------------------------------*/
 
 /*------ Media Query Responsive ------*/
