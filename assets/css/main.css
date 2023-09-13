@@ -86,6 +86,9 @@ h6 {
 .container-top{
   position: absolute;
   z-index: 1;
+  transform: skewX(30deg);
+  box-sizing: border-box;
+  margin-right: -5px;
 }
 
 .contenedor{
@@ -109,6 +112,10 @@ h6 {
   border-right: 0px solid transparent;
   border-left: 90px solid transparent;
   border-top: 100px solid #428bca;
+}
+
+.text-resp{
+  z-index: 1;
 }
 /*--------------------------------------------------------------
 # Sections & Section Header
@@ -308,7 +315,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 70px;
+  max-height: 100px;
   margin-right: 6px;
 }
 
@@ -433,7 +440,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--color-primary);
+    color: #11b2e8;
   }
 
   .navbar .dropdown:hover>ul {
