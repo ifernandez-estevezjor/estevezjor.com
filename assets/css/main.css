@@ -115,7 +115,8 @@ h6 {
 }
 
 .text-resp{
-  z-index: 1;
+  transform: skewX(-10deg);
+  display: block;
 }
 /*--------------------------------------------------------------
 # Sections & Section Header
