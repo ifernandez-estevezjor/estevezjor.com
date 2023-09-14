@@ -88,6 +88,34 @@ h6 {
   transform: skewX(-10deg);
   display: block;
 }
+
+.img-obra{
+  width: 540px;
+}
+
+.img-gestion{
+  width: 562px;
+}
+
+.img-electricas{
+  width: 562px;
+}
+
+.img-especiales{
+  width: 562px;
+}
+
+.img-cctv{
+  width: 562px;
+}
+
+.box-gestion{
+  height: 650px;
+}
+
+.box-cableado{
+  height: 700px;
+}
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -4057,8 +4085,8 @@ hr{
   }
   .whatsapp {
     position:fixed;
-    width:55px;
-    height:55px;
+    width:60px;
+    height:60px;
     bottom:20px;
     right:20px;
     background-color:#25d366;
@@ -4067,6 +4095,9 @@ hr{
     text-align:center;
     font-size:35px;
     z-index:100;
+  }
+  .whatsapp-logo{
+    margin-top: 0px;
   }
   .container {
     position: relative;
@@ -4155,18 +4186,73 @@ hr{
   .box-left-img{
     height: 250px;
   }
+  .section-header{
+    margin-top: -40px;
+  }
+  .img-obra{
+    width: 368px;
+    height: auto;
+    margin-left: -7px;
+  }
+  .img-gestion{
+    width: 410px;
+    margin-left: -6px;
+  }
+  .img-electricas{
+    width: 400px;
+  }
+  .img-especiales{
+    width: 400px;
+  }
+  .img-remodelaciones{
+    width: 400px;
+  }
+  .img-cctv{
+    width: 400px;
+    margin-left: -6px;
+  }
 
   .container-one{
     height: 1200px;
   }
 
-  .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
-    position: absolute !important;
-    bottom: 210px !important;
-    width: 80% !important;
-    float: left !important;
-    margin-left: 70px !important;
-    margin-bottom: 0 !important;
+  .title-partners{
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .box-cons{
+    margin-left: -35px;
+  }
+  .box-mant{
+    margin-left: -46px;
+  }
+  .box-elect{
+    margin-left: -30px;
+  }
+  .box-instal{
+    margin-left: -35px;
+  }
+  .box-cctv{
+    margin-left: -36px;
+  }
+  .box-sum{
+    margin-left: -46px;
+  }
+
+  .whatsapp {
+    position:fixed;
+    width:55px;
+    height:55px;
+    bottom:20px;
+    right:20px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    z-index:100;
   }
 }
 /*------------------------------------*/
