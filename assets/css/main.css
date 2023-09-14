@@ -76,42 +76,12 @@ h6 {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/*.trapecio-top {
-  border-left: 60px solid transparent;
-  border-top: 100px solid #428bca;
-  position: absolute;
-  z-index: 1;
-}*/
-
 .container-top{
   position: absolute;
   z-index: 1;
   transform: skewX(30deg);
   box-sizing: border-box;
   margin-right: -5px;
-}
-
-.contenedor{
-  position: absolute;
-  display: inline-block;
-  text-align: center;
-  float: right;
-}
-.centrado{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.trapecio-top { 
-  margin-left: 360px; 
-  width: 1000px;
-  height: 15px;
-  /*height: 0px;*/
-  border-right: 0px solid transparent;
-  border-left: 90px solid transparent;
-  border-top: 100px solid #428bca;
 }
 
 .text-resp{
@@ -1997,6 +1967,11 @@ Main Components
 .bg-testimonials{
   background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
+}
+
+.img-politica{
+  width: 350px;
+  /*height: 250px;*/
 }
 
 hr{
@@ -4052,8 +4027,30 @@ hr{
 
 /*------ Media Query Responsive ------*/
 @media (max-width: 575px) {
+  .header .logo h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: var(--font-primary);
+    margin-top: 20px;
+}
+.mobile-nav-show {
+  position: relative;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  line-height: 0;
+  transition: 0.5s;
+  z-index: 9999;
+  padding-right: 10px;
+  margin-top: 20px;
+}
   .container-top{
-    height: 40px;
+    position: absolute;
+    z-index: 1;
+    transform: skewX(30deg);
+    box-sizing: border-box;
   }
   .text-resp{
     font-size: 9px;
@@ -4094,38 +4091,69 @@ hr{
     height: 450px;
   }
 
-  .contenedor{
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-    float: right;
-  }
-  .centrado{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .trapecio-top { 
-    margin-left: 60px; 
-    width: 363px;
-    height: 15px;
-    /*height: 0px;*/
-    border-right: 0px solid transparent;
-    border-left: 90px solid transparent;
-    border-top: 100px solid #428bca;
-  }
-
-  .container-over{
-    top: 700px;
-  }
   .box-left-bottom{
     width: 385px;
   }
 
+  .background-about {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 110%;
+}
+  .card-about{
+    width: 80%;
+  }
+  .title-mision, .title-vision{
+    font-size: 35px;
+  }
+  .img-politica{
+    margin-right: 100px;
+  }
+
   .img-banner{
     height: 220px;
+  }
+  .container-estevez{
+    margin-left: -15px;
+  }
+  .box-cons{
+    margin-left: -26px;
+  }
+  .box-mant{
+    margin-left: -36px;
+  }
+  .box-elect{
+    margin-left: -20px;
+  }
+  .box-instal{
+    margin-left: -26px;
+  }
+  .box-remod{
+    margin-left: -50px;
+  }
+  .box-cable{
+    margin-left: -46px;
+  }
+  .box-sum{
+    margin-left: -38px;
+  }
+  .box-cctv{
+    margin-left: -28px;
+  }
+  .hero .info h1{
+    font-size: 40px;
+  }
+  .box-left-img{
+    height: 250px;
+  }
+
+  .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
+    position: absolute !important;
+    bottom: 210px !important;
+    width: 80% !important;
+    float: left !important;
+    margin-left: 70px !important;
+    margin-bottom: 0 !important;
   }
 }
 /*------------------------------------*/
