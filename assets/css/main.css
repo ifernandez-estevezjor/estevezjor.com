@@ -4092,7 +4092,16 @@ hr{
   }
 
   .box-left-bottom{
-    width: 385px;
+    width: 400px;
+    margin-bottom: -500px;
+    margin-right: -32px;
+  }
+  .box-left-bottom-one{
+    width: 400px;
+    height: 400px;
+    margin-bottom: -500px;
+    margin-right: -10px;
+    background-color: #11b2e8;
   }
 
   .background-about {
@@ -4145,6 +4154,10 @@ hr{
   }
   .box-left-img{
     height: 250px;
+  }
+
+  .container-one{
+    height: 1200px;
   }
 
   .ps-timeline-sec .container ol.ps-timeline li .img-handler-top {
