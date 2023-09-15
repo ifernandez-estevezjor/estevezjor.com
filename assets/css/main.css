@@ -109,6 +109,13 @@ h6 {
   width: 562px;
 }
 
+.box-empalmes{
+  height: 600px;
+}
+.text-empalmes{
+  text-align: justify;
+}
+
 .box-gestion{
   height: 650px;
 }
@@ -864,7 +871,7 @@ section {
 }
 .box-left-bottom{
   width: 770px;
-  height: 300px;
+  height: 280px;
   background-color: #11b2e8;
 }
 hr.divider{
@@ -4190,7 +4197,7 @@ hr{
     margin-top: -40px;
   }
   .img-obra{
-    width: 368px;
+    width: 348px;
     height: auto;
     margin-left: -7px;
   }
@@ -4222,11 +4229,38 @@ hr{
 }
 
 @media screen and (max-width: 768px) {
+  .title-box{
+    margin-top: 25px;
+  }
+  .box-obra{
+    margin-top: -50px;
+  }
   .box-cons{
     margin-left: -35px;
   }
+  .box-gestion{
+    height: 800px;
+  }
   .box-mant{
     margin-left: -46px;
+  }
+  .box-adec{
+    height: 800px;
+  }
+  .img-electricas{
+    width: auto;
+  }
+  .box-especiales{
+    height: 800px;
+  }
+  .img-especiales{
+    width: auto;
+  }
+  .box-remod{
+    height: 800px;
+  }
+  .img-remodelaciones{
+    width: auto;
   }
   .box-elect{
     margin-left: -30px;
@@ -4239,6 +4273,18 @@ hr{
   }
   .box-sum{
     margin-left: -46px;
+  }
+  .box-left-bottom{
+    width: 380px;
+    margin-bottom: -500px;
+    margin-right: -32px;
+  }
+  .box-left-bottom-one{
+    width: 380px;
+    height: 400px;
+    margin-bottom: -500px;
+    margin-right: -10px;
+    background-color: #11b2e8;
   }
 
   .whatsapp {
